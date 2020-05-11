@@ -2,3 +2,14 @@ server:
   port: 8080
   servlet:
     contextPath: /demo/
+spring:
+  application:
+    name: spring-cloudd-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/darrenlsc/spring-cloud/
+          search-paths: config-repo
+          username: darrenlsc
+          password: 0119cheng

@@ -26,6 +26,7 @@
         <module>SpringCloudConsumer</module>
         <module>SpringCloudProducer</module>
         <module>SpringCloudHistrixDashboard</module>
+        <module>CloudConfigServer</module>
     </modules>
 
 </project>
